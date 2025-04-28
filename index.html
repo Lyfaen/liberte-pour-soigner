@@ -7,31 +7,16 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Liberté pour soigner</h1>
-    <h2>Pour un accès aux soins partout, pour tous</h2>
-  </header>
-
-  <main>
-    <section class="intro">
-      <p>
-        La nouvelle loi limite l'installation des médecins en libéral dans de nombreuses circonscriptions, ce qui risque d'aggraver l'accès aux soins.
-        Sélectionnez votre circonscription pour contacter directement votre député.
-      </p>
-    </section>
-
-    <section class="selection">
-      <label for="circonscriptionSelect">Choisissez votre circonscription :</label>
-      <select id="circonscriptionSelect">
-        <option value="">-- Sélectionnez --</option>
-      </select>
-      <button id="sendMailButton" disabled>Écrire à mon député</button>
-    </section>
-  </main>
-
-  <footer>
-    <p>Site réalisé par des citoyens mobilisés.</p>
-  </footer>
+  <h1>Liberté pour soigner</h1>
+  <h2>Pour l'accès aux soins partout, pour tous</h2>
+  
+  <p>Choisissez votre circonscription :</p>
+  
+  <select id="depute-select">
+    <option value="">-- Sélectionnez votre député --</option>
+  </select>
+  
+  <button id="email-button" disabled>Écrire à mon député</button>
 
   <script src="script.js"></script>
 </body>
