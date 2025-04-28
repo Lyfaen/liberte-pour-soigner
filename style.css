@@ -1,20 +1,40 @@
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
-  padding: 0;
   background-color: #f7f7f7;
   text-align: center;
 }
 
+header {
+  background-color: #007BFF;
+  color: white;
+  padding: 1em;
+}
+
 h1 {
-  color: #2c3e50;
+  margin: 0;
   font-size: 2.5em;
 }
 
 h2 {
-  color: #34495e;
+  margin: 0.5em 0 20px;
   font-size: 1.2em;
-  margin-bottom: 30px;
+}
+
+main {
+  background-color: white;
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+}
+
+.intro p {
+  font-size: 1.1em;
+  margin-bottom: 1.5em;
+}
+
+.selection label {
+  font-size: 1em;
 }
 
 select {
@@ -22,21 +42,30 @@ select {
   width: 80%;
   max-width: 400px;
   font-size: 1em;
-  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 button {
+  margin-top: 20px;
   padding: 10px 20px;
   font-size: 1em;
   background-color: #3498db;
   color: white;
   border: none;
-  cursor: pointer;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 button:disabled {
   background-color: #bdc3c7;
   cursor: not-allowed;
 }
+
+footer {
+  margin-top: 2em;
+  padding: 1em;
+  background-color: #007BFF;
+  color: white;
+}
+
 
