@@ -2,35 +2,42 @@ document.addEventListener("DOMContentLoaded", () => {
   const selectEl = document.getElementById("circoSelect");
   const sendBtn = document.getElementById("sendMailBtn");
 
-  // Chargement du CSV avec PapaParse
+  // Charger le CSV avec PapaParse
   Papa.parse("VoxPublic_liste-an.csv", {
     download: true,
     header: true,
+    transformHeader: header => header.trim().toLowerCase(),
     complete: function(results) {
-      // Filtrer les lignes valides (attend des colonnes : circonscription, departement, depute, email)
+      // Vérifier si des données ont été chargées
+      if (!results.data || results.data.length === 0) {
+        console.error("Aucune donnée trouvée dans le CSV.");
+        return;
+      }
+      // Filtrer pour ne garder que les lignes valides
       const data = results.data.filter(row =>
         row.circonscription && row.departement && row.depute && row.email
       );
-      // Pour chaque ligne, on ajoute une option dans le menu
+      // Ajouter une option pour chaque circonscription
       data.forEach(row => {
         const option = document.createElement("option");
-        // Format de l'option : "Circonscription - Député (Département)"
-        option.value = row.email; // L'adresse mail du député
+        // Formater l'option : "Circonscription - Député (Département)"
+        option.value = row.email; // L'adresse mail
         option.textContent = `${row.circonscription} - ${row.depute} (${row.departement})`;
         selectEl.appendChild(option);
       });
+      console.log("Menu déroulant rempli avec", data.length, "entrées.");
     },
     error: function(err) {
       console.error("Erreur lors du chargement du CSV :", err);
     }
   });
 
-  // Active le bouton quand une option est sélectionnée
+  // Activer le bouton quand une option est sélectionnée
   selectEl.addEventListener("change", () => {
     sendBtn.disabled = (selectEl.value === "");
   });
 
-  // Ouvrir l'application mail avec le mail pré-rempli
+  // Lorsque le bouton est cliqué, ouvrir l'application mail avec le mail prérempli
   sendBtn.addEventListener("click", () => {
     const email = selectEl.value;
     if (!email) return;
