@@ -54,9 +54,9 @@ sendBtn.addEventListener("click", () => {
   const subject = encodeURIComponent("Contre la limitation de l'installation des médecins");
   const body = encodeURIComponent(
     "Madame, Monsieur le Député,\n\n" +
-    "Je vous écris pour exprimer mon opposition à la nouvelle loi limitant l'installation des médecins. " +
-    "Cette mesure risque d'aggraver l'accès aux soins dans notre circonscription.\n\n" +
-    "Merci de défendre l'accès aux soins pour tous.\n\n" +
+    "Je vous écris pour exprimer mon opposition à la nouvelle loi Garot limitant l'installation des médecins. " +
+    "Cette mesure risque d'aggraver l'accès aux soins dans notre circonscription, qui est considérée en grande partie comme surdotée.\n\n" +
+    "Merci de défendre l'accès aux soins pour nous.\n\n" +
     "Cordialement."
   );
   window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
