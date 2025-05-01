@@ -15,72 +15,8 @@
   <main>
     <section class="intro">
       <p>
-        La nouvelle loi limite l'installation des médecins dans certaines circonscriptions, menaçant l'accès aux soins dans votre commune. Retrouvez la carte ici pour savoir si votre zone est considérée comme "surdotée". Si votre commune apparait en vert, alors elle ne pourra pas accueillir de nouveau médecin.
-        Sélectionnez votre circonscription pour contacter directement votre député en lui demandant de changer la loi Pour connaître votre circonscription, vous pouvez vous rendre à l'adresse suivante : // Tableau "deputes" généré à partir du CSV VoxPublic_liste-an.csv
-const deputes = [
-  {
-    circonscription: "01 - 1ère circonscription",
-    departement: "Ain",
-    depute: "Jean DUPONT",
-    email: "jean.dupont@assemblee-nationale.fr"
-  },
-  {
-    circonscription: "01 - 2e circonscription",
-    departement: "Ain",
-    depute: "Marie MARTIN",
-    email: "marie.martin@assemblee-nationale.fr"
-  },
-  {
-    circonscription: "02 - 1ère circonscription",
-    departement: "Aisne",
-    depute: "Pierre DURAND",
-    email: "pierre.durand@assemblee-nationale.fr"
-  },
-  {
-    circonscription: "02 - 2e circonscription",
-    departement: "Aisne",
-    depute: "Sophie LEROY",
-    email: "sophie.leroy@assemblee-nationale.fr"
-  }
-  // ... Insérez ici toutes les autres entrées converties depuis le CSV.
-];
-
-// Remplissage du menu déroulant
-const selectEl = document.getElementById("circoSelect");
-const sendBtn = document.getElementById("sendMailBtn");
-
-// Ajoute une option pour chaque entrée
-deputes.forEach(dep => {
-  if (dep.circonscription && dep.depute && dep.departement && dep.email) {
-    const option = document.createElement("option");
-    // L'option affiche: "Circonscription - Député (Département)"
-    option.value = dep.email; // Adresse email utilisée pour l'envoi du mail
-    option.textContent = `${dep.circonscription} - ${dep.depute} (${dep.departement})`;
-    selectEl.appendChild(option);
-  }
-});
-
-// Active le bouton quand une option est sélectionnée
-selectEl.addEventListener("change", () => {
-  sendBtn.disabled = (selectEl.value === "");
-});
-
-// Lorsqu'on clique sur le bouton, ouvre le client mail avec le mail pré-rempli
-sendBtn.addEventListener("click", () => {
-  const email = selectEl.value;
-  if (!email) return;
-  const subject = encodeURIComponent("Contre la limitation de l'installation des médecins");
-  const body = encodeURIComponent(
-    "Madame, Monsieur le Député,\n\n" +
-    "Je vous écris pour exprimer mon opposition à la nouvelle loi limitant l'installation des médecins. " +
-    "Cette mesure risque d'aggraver l'accès aux soins dans notre circonscription.\n\n" +
-    "Merci de défendre l'accès aux soins pour tous.\n\n" +
-    "Cordialement."
-  );
-  window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
-});
-
-      .
+        La nouvelle loi Garot limite l'installation des médecins dans certaines circonscriptions,
+        y menaçant l'accès aux soins. Vous trouverez sur cette carte : <url>https://www.francetvinfo.fr/sante/carte-generalistes-dentistes-sages-femmes-votre-commune-est-elle-mieux-lotie-que-les-autres-en-matiere-d-acces-aux-soins_7011872.html</url> les communes considérées comme surdotées (en vert) et ou aucune installation de médecin ne sera possible sauf remplacement de poste. Si vous ne connaissez pas le député responsable de votre circonscription, vous pouvez le trouver ici: <url>https://www.assemblee-nationale.fr/dyn/deputes/PA719736</url> prouvez trouver ici le député responsable de votre circonscription . Une fois votre député identifié, sélectionnez votre circonscription ci-dessous, un mail type s'ouvrira alors que vous pourrez directement envoyer à votre député. Merci d'avance pour votre soutien et pour votre défense d'un système de santé fort dans votre région. 
       </p>
     </section>
 
@@ -97,9 +33,7 @@ sendBtn.addEventListener("click", () => {
   <footer>
     <p>Site réalisé par des citoyens mobilisés.</p>
   </footer>
-  
-  <!-- PapaParse (CDN) -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+
   <script src="script.js"></script>
 </body>
 </html>
