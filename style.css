@@ -1,69 +1,143 @@
+/* Nouvelle version style.css */
+
+/* Couleurs neutres et harmonieuses */
+:root {
+  --primary-color: #2b3e50;
+  --secondary-color: #4f6d7a;
+  --accent-color: #82a3a1;
+  --background-color: #f0f4f8;
+  --white: #ffffff;
+  --grey-light: #e1e8ed;
+  --grey-dark: #7f8c8d;
+  --font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-  background-color: #f7f7f7;
-  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+  color: var(--primary-color);
+  line-height: 1.6;
 }
 
 header {
-  background-color: #1A5276;
-  color: white;
-  padding: 1em;
+  background: var(--secondary-color);
+  padding: 1.5em;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+header h1 {
+  color: var(--white);
+  font-size: 2.8em;
+  margin: 0.2em 0;
+}
+
+header h2 {
+  color: var(--accent-color);
+  font-size: 1.3em;
   margin: 0;
-  font-size: 2.5em;
-}
-
-h2 {
-  margin: 0.5em 0 20px;
-  font-size: 1.2em;
 }
 
 main {
-  background-color: white;
-  padding: 2em;
   max-width: 800px;
-  margin: auto;
+  margin: 2em auto;
+  padding: 2em;
+  background: var(--white);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
 .intro p {
   font-size: 1.1em;
   margin-bottom: 1.5em;
+  text-align: center;
+  color: var(--primary-color);
 }
 
-.selection label {
-  font-size: 1em;
+.selection {
+  text-align: center;
+  margin: 2em 0;
 }
 
-select {
-  padding: 10px;
-  width: 80%;
-  max-width: 400px;
+.selection input[type="text"] {
+  padding: 12px 16px;
+  width: 90%;
+  max-width: 450px;
+  margin-bottom: 1em;
   font-size: 1em;
-  margin-top: 10px;
+  border: 1px solid var(--grey-light);
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
 }
 
-button {
-  margin-top: 20px;
-  padding: 10px 20px;
+.selection input[type="text"]:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+.selection select {
+  padding: 12px;
+  width: 90%;
+  max-width: 450px;
   font-size: 1em;
-  background-color: #3498db;
-  color: white;
+  border: 1px solid var(--grey-light);
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.selection select:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+.selection button {
+  margin-top: 1em;
+  padding: 12px 24px;
+  font-size: 1em;
+  background-color: var(--accent-color);
+  color: var(--white);
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
   cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-button:disabled {
-  background-color: #bdc3c7;
+.selection button:hover {
+  background-color: var(--secondary-color);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.selection button:disabled {
+  background-color: var(--grey-dark);
   cursor: not-allowed;
+  opacity: 0.6;
 }
 
 footer {
   margin-top: 2em;
   padding: 1em;
-  background-color: #1A5276;
-  color: white;
+  background: var(--secondary-color);
+  text-align: center;
+  color: var(--white);
+  font-size: 0.9em;
+}
+
+/* Ajout de quelques media queries pour la réactivité */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2em;
+  }
+  header h2 {
+    font-size: 1em;
+  }
+  main {
+    margin: 1em;
+    padding: 1.5em;
+  }
+  .selection input[type="text"],
+  .selection select {
+    width: 95%;
+  }
 }
