@@ -3458,37 +3458,49 @@ const deputes = [
   }
 ];
 
-// Remplissage du menu déroulant
 const selectEl = document.getElementById("circoSelect");
 const sendBtn = document.getElementById("sendMailBtn");
+const searchInput = document.getElementById("searchInput");
 
-// Ajoute une option pour chaque entrée
-deputes.forEach(dep => {
-  if (dep.circonscription && dep.depute && dep.departement && dep.email) {
-    const option = document.createElement("option");
-    // L'option affiche: "Circonscription - Député (Département)"
-    option.value = dep.email; // Adresse email utilisée pour l'envoi du mail
-    option.textContent = `${dep.circonscription} - ${dep.depute} (${dep.departement})`;
-    selectEl.appendChild(option);
-  }
+// Fonction pour afficher les options (filtrées ou non)
+function updateSelect(filter = "") {
+  selectEl.innerHTML = '<option value="">-- Sélectionnez --</option>';
+  deputes.forEach(dep => {
+    const text = `${dep.circonscription} - ${dep.depute} (${dep.departement})`;
+    if (text.toLowerCase().includes(filter.toLowerCase())) {
+      const option = document.createElement("option");
+      option.value = dep.email;
+      option.textContent = text;
+      selectEl.appendChild(option);
+    }
+  });
+  sendBtn.disabled = true;
+}
+
+// Événement de recherche en direct
+searchInput.addEventListener("input", (e) => {
+  updateSelect(e.target.value);
 });
 
-// Active le bouton quand une option est sélectionnée
+// Événement sur le menu déroulant
 selectEl.addEventListener("change", () => {
   sendBtn.disabled = (selectEl.value === "");
 });
 
-// Lorsqu'on clique sur le bouton, ouvre le client mail avec le mail pré-rempli
+// Clic sur le bouton pour envoyer le mail
 sendBtn.addEventListener("click", () => {
   const email = selectEl.value;
   if (!email) return;
   const subject = encodeURIComponent("Contre la limitation de l'installation des médecins");
   const body = encodeURIComponent(
     "Madame, Monsieur le Député,\n\n" +
-    "Je vous écris pour exprimer mon opposition à la nouvelle loi Garot limitant l'installation des médecins. " +
-    "Cette mesure risque d'aggraver l'accès aux soins dans notre circonscription, qui est considérée en grande partie comme surdotée.\n\n" +
-    "Merci de défendre l'accès aux soins pour nous.\n\n" +
+    "Je vous écris pour exprimer mon opposition à la nouvelle loi limitant l'installation des médecins. " +
+    "Cette mesure risque d'aggraver l'accès aux soins dans notre circonscription.\n\n" +
+    "Merci de défendre l'accès aux soins pour tous.\n\n" +
     "Cordialement."
   );
   window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
 });
+
+// Initialisation au chargement
+updateSelect();
