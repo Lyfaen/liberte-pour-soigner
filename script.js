@@ -40,7 +40,7 @@ const deputes = [
     "circonscription": "2° circonscription",
     "departement": "Aisne",
     "depute": "M. Dive",
-    "email": "julien.dive-permanence@orange.fr|julien.dive@assemblee-nationale.fr"
+    "email": "julien.dive-permanence@orange.fr"
   },
   {
     "circonscription": "3° circonscription",
@@ -70,7 +70,7 @@ const deputes = [
     "circonscription": "2° circonscription",
     "departement": "Allier",
     "depute": "M. Bovet",
-    "email": "jorys.bovet@assemblee-nationale.fr|jorysb.rn03@gmail.com"
+    "email": "jorys.bovet@assemblee-nationale.fr"
   },
   {
     "circonscription": "3° circonscription",
@@ -130,7 +130,7 @@ const deputes = [
     "circonscription": "7° circonscription",
     "departement": "Alpes-Maritimes",
     "depute": "M. Pauget",
-    "email": "e.pauget@orange.fr|eric.pauget@assemblee-nationale.fr"
+    "email": "eric.pauget@assemblee-nationale.fr"
   },
   {
     "circonscription": "8° circonscription",
@@ -146,19 +146,19 @@ const deputes = [
   },
   {
     "circonscription": "1ère circonscription",
-    "departement": "ArdÃ¨che",
+    "departement": "Ardèche",
     "depute": "M. Saulignac",
-    "email": "herve.saulignac2017@gmail.com|herve.saulignac@assemblee-nationale.fr"
+    "email": "herve.saulignac@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
-    "departement": "ArdÃ¨che",
+    "departement": "Ardèche",
     "depute": "M. Trébuchet",
-    "email": "vincent.trebuchet@assemblee-nationale.fr|vincenttrebuchet.ardeche@gmail.com"
+    "email": "vincenttrebuchet.ardeche@gmail.com"
   },
   {
     "circonscription": "3° circonscription",
-    "departement": "ArdÃ¨che",
+    "departement": "Ardèche",
     "depute": "M. Brun",
     "email": "fabrice.brun@assemblee-nationale.fr"
   },
@@ -172,7 +172,7 @@ const deputes = [
     "circonscription": "2° circonscription",
     "departement": "Ardennes",
     "depute": "M. Cordier",
-    "email": "depute-cordier@orange.fr|pierre.cordier@assemblee-nationale.fr"
+    "email": "depute-cordier@orange.fr"
   },
   {
     "circonscription": "3° circonscription",
@@ -182,13 +182,13 @@ const deputes = [
   },
   {
     "circonscription": "1ère circonscription",
-    "departement": "AriÃ¨ge",
+    "departement": "Ariège",
     "depute": "Mme Froger",
     "email": "martine.froger@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
-    "departement": "AriÃ¨ge",
+    "departement": "Ariège",
     "depute": "M. Panifous",
     "email": "laurent.panifous@assemblee-nationale.fr"
   },
@@ -213,7 +213,7 @@ const deputes = [
   {
     "circonscription": "1ère circonscription",
     "departement": "Aude",
-    "depute": "M. BarthÃ¨s",
+    "depute": "M. Barthès",
     "email": "christophe.barthes@assemblee-nationale.fr"
   },
   {
@@ -286,7 +286,7 @@ const deputes = [
     "circonscription": "7° circonscription",
     "departement": "Bas-Rhin",
     "depute": "M. Hetzel",
-    "email": "contact@patrick-hetzel.fr|patrick.hetzel@assemblee-nationale.fr"
+    "email": "contact@patrick-hetzel.fr"
   },
   {
     "circonscription": "8° circonscription",
@@ -302,165 +302,165 @@ const deputes = [
   },
   {
     "circonscription": "1ère circonscription",
-    "departement": "Bouches-du-RhÃ´ne",
+    "departement": "Bouches-du-Rhône",
     "depute": "Mme Griseti",
     "email": "monique.griseti@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
-    "departement": "Bouches-du-RhÃ´ne",
+    "departement": "Bouches-du-Rhône",
     "depute": "M. Lhardit",
     "email": "laurent.lhardit@assemblee-nationale.fr"
   },
   {
     "circonscription": "3° circonscription",
-    "departement": "Bouches-du-RhÃ´ne",
+    "departement": "Bouches-du-Rhône",
     "depute": "Mme Lelouis",
     "email": "gisele.lelouis@assemblee-nationale.fr"
   },
   {
     "circonscription": "4° circonscription",
-    "departement": "Bouches-du-RhÃ´ne",
+    "departement": "Bouches-du-Rhône",
     "depute": "M. Bompard",
-    "email": "manuel.bompard@assemblee-nationale.fr|contact@manuelbompard.fr"
+    "email": "manuel.bompard@assemblee-nationale.fr"
   },
   {
     "circonscription": "5° circonscription",
-    "departement": "Bouches-du-RhÃ´ne",
+    "departement": "Bouches-du-Rhône",
     "depute": "M. Davi",
     "email": "hendrik.davi@assemblee-nationale.fr"
   },
   {
     "circonscription": "6° circonscription",
-    "departement": "Bouches-du-RhÃ´ne",
+    "departement": "Bouches-du-Rhône",
     "depute": "M. Fayssat",
     "email": "olivier.fayssat@assemblee-nationale.fr"
   },
   {
     "circonscription": "7° circonscription",
-    "departement": "Bouches-du-RhÃ´ne",
+    "departement": "Bouches-du-Rhône",
     "depute": "M. Delogu",
     "email": "sebastien.delogu@assemblee-nationale.fr"
   },
   {
     "circonscription": "8° circonscription",
-    "departement": "Bouches-du-RhÃ´ne",
+    "departement": "Bouches-du-Rhône",
     "depute": "M. Tonussi",
     "email": "romain.tonussi@assemblee-nationale.fr"
   },
   {
     "circonscription": "9° circonscription",
-    "departement": "Bouches-du-RhÃ´ne",
+    "departement": "Bouches-du-Rhône",
     "depute": "Mme Mélin",
     "email": "joelle.melin@assemblee-nationale.fr"
   },
   {
     "circonscription": "10° circonscription",
-    "departement": "Bouches-du-RhÃ´ne",
+    "departement": "Bouches-du-Rhône",
     "depute": "M. Gonzalez",
-    "email": "jose.gonzalez@assemblee-nationale.fr|jo.allauch@gmail.com"
+    "email": "jose.gonzalez@assemblee-nationale.fr"
   },
   {
     "circonscription": "11° circonscription",
-    "departement": "Bouches-du-RhÃ´ne",
+    "departement": "Bouches-du-Rhône",
     "depute": "M. Pena",
     "email": "marc.pena@assemblee-nationale.fr"
   },
   {
     "circonscription": "12° circonscription",
-    "departement": "Bouches-du-RhÃ´ne",
+    "departement": "Bouches-du-Rhône",
     "depute": "M. Allisio",
     "email": "franck.allisio@assemblee-nationale.fr"
   },
   {
     "circonscription": "13° circonscription",
-    "departement": "Bouches-du-RhÃ´ne",
+    "departement": "Bouches-du-Rhône",
     "depute": "M. Fouquart",
     "email": "emmanuel.fouquart@assemblee-nationale.fr"
   },
   {
     "circonscription": "14° circonscription",
-    "departement": "Bouches-du-RhÃ´ne",
+    "departement": "Bouches-du-Rhône",
     "depute": "M. Verny",
     "email": "gerault.verny@assemblee-nationale.fr"
   },
   {
     "circonscription": "15° circonscription",
-    "departement": "Bouches-du-RhÃ´ne",
+    "departement": "Bouches-du-Rhône",
     "depute": "M. Baubry",
     "email": "romain.baubry@assemblee-nationale.fr"
   },
   {
     "circonscription": "16° circonscription",
-    "departement": "Bouches-du-RhÃ´ne",
+    "departement": "Bouches-du-Rhône",
     "depute": "M. Taché de la Pagerie",
     "email": "emmanuel.tachedelapagerie@assemblee-nationale.fr"
   },
   {
     "circonscription": "1ère circonscription",
-    "departement": "CÃ´te-d'Or",
+    "departement": "Côte-d'Or",
     "depute": "Mme Godard",
     "email": "oceane.godard@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
-    "departement": "CÃ´te-d'Or",
+    "departement": "Côte-d'Or",
     "depute": "Mme Hervieu",
     "email": "catherine.hervieu@assemblee-nationale.fr"
   },
   {
     "circonscription": "3° circonscription",
-    "departement": "CÃ´te-d'Or",
+    "departement": "Côte-d'Or",
     "depute": "M. Pribetich",
     "email": "pierre.pribetich@assemblee-nationale.fr"
   },
   {
     "circonscription": "4° circonscription",
-    "departement": "CÃ´te-d'Or",
+    "departement": "Côte-d'Or",
     "depute": "M. Brigand",
     "email": "hubert.brigand@assemblee-nationale.fr"
   },
   {
     "circonscription": "5° circonscription",
-    "departement": "CÃ´te-d'Or",
+    "departement": "Côte-d'Or",
     "depute": "M. Lioret",
-    "email": "rene.lioret@assemblee-nationale.fr|lioret.r@gmail.com"
+    "email": "rene.lioret@assemblee-nationale.fr"
   },
   {
     "circonscription": "1ère circonscription",
-    "departement": "CÃ´tes-d'Armor",
+    "departement": "Côtes-d'Armor",
     "depute": "M. Cosson",
     "email": "mickael.cosson@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
-    "departement": "CÃ´tes-d'Armor",
+    "departement": "Côtes-d'Armor",
     "depute": "M. Berville",
-    "email": "herve.berville@en-marche.fr|herve.berville@assemblee-nationale.fr"
+    "email": "herve.berville@assemblee-nationale.fr"
   },
   {
     "circonscription": "3° circonscription",
-    "departement": "CÃ´tes-d'Armor",
+    "departement": "Côtes-d'Armor",
     "depute": "M. Le Fur",
     "email": "corentin.lefur@assemblee-nationale.fr"
   },
   {
     "circonscription": "4° circonscription",
-    "departement": "CÃ´tes-d'Armor",
+    "departement": "Côtes-d'Armor",
     "depute": "Mme Lepvraud",
     "email": "murielle.lepvraud@assemblee-nationale.fr"
   },
   {
     "circonscription": "5° circonscription",
-    "departement": "CÃ´tes-d'Armor",
+    "departement": "Côtes-d'Armor",
     "depute": "M. Bothorel",
-    "email": "contact@ericbothorel.bzh|eric.bothorel@assemblee-nationale.fr"
+    "email": "eric.bothorel@assemblee-nationale.fr"
   },
   {
     "circonscription": "1ère circonscription",
     "departement": "Calvados",
     "depute": "M. Bruneau",
-    "email": "joel.bruneau@assemblee-nationale.fr|jbruneau14@gmail.com"
+    "email": "joel.bruneau@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
@@ -496,13 +496,13 @@ const deputes = [
     "circonscription": "1ère circonscription",
     "departement": "Cantal",
     "depute": "M. Descoeur",
-    "email": "contact@descoeur.com|vincent.descoeur@assemblee-nationale.fr"
+    "email": "contact@descoeur.com"
   },
   {
     "circonscription": "2° circonscription",
     "departement": "Cantal",
     "depute": "M. Bony",
-    "email": "jybony@orange.fr|jean-yves.bony@assemblee-nationale.fr"
+    "email": "jybony@orange.fr"
   },
   {
     "circonscription": "1ère circonscription",
@@ -544,7 +544,7 @@ const deputes = [
     "circonscription": "4° circonscription",
     "departement": "Charente-Maritime",
     "depute": "M. Markowsky",
-    "email": "pascal.markowsky@assemblee-nationale.fr|markowsky.pascal@gmail.com"
+    "email": "pascal.markowsky@assemblee-nationale.fr"
   },
   {
     "circonscription": "5° circonscription",
@@ -572,13 +572,13 @@ const deputes = [
   },
   {
     "circonscription": "1ère circonscription",
-    "departement": "CorrÃ¨ze",
+    "departement": "Corrèze",
     "depute": "M. Hollande",
     "email": "francois.hollande@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
-    "departement": "CorrÃ¨ze",
+    "departement": "Corrèze",
     "depute": "Mme Meunier",
     "email": "frederique.meunier@assemblee-nationale.fr"
   },
@@ -602,19 +602,19 @@ const deputes = [
   },
   {
     "circonscription": "1ère circonscription",
-    "departement": "Deux-SÃ¨vres",
+    "departement": "Deux-Sèvres",
     "depute": "M. Marchive",
     "email": "bastien.marchive@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
-    "departement": "Deux-SÃ¨vres",
+    "departement": "Deux-Sèvres",
     "depute": "Mme Batho",
     "email": "delphine.batho@assemblee-nationale.fr"
   },
   {
     "circonscription": "3° circonscription",
-    "departement": "Deux-SÃ¨vres",
+    "departement": "Deux-Sèvres",
     "depute": "M. Fiévet",
     "email": "jean-marie.fievet@assemblee-nationale.fr"
   },
@@ -669,24 +669,24 @@ const deputes = [
   {
     "circonscription": "5° circonscription",
     "departement": "Doubs",
-    "depute": "M. LiÃ©geon",
+    "depute": "M. Liégeon",
     "email": "eric.liegeon@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
-    "departement": "DrÃ´me",
+    "departement": "Drôme",
     "depute": "Mme Pollet",
     "email": "lisette.pollet@assemblee-nationale.fr"
   },
   {
     "circonscription": "3° circonscription",
-    "departement": "DrÃ´me",
+    "departement": "Drôme",
     "depute": "Mme Pochon",
-    "email": "marie.pochon@assemblee-nationale.fr|contact@mariepochon.fr"
+    "email": "contact@mariepochon.fr"
   },
   {
     "circonscription": "4° circonscription",
-    "departement": "DrÃ´me",
+    "departement": "Drôme",
     "depute": "M. Monnier",
     "email": "thibaut.monnier@assemblee-nationale.fr"
   },
@@ -718,7 +718,7 @@ const deputes = [
     "circonscription": "4° circonscription",
     "departement": "Essonne",
     "depute": "Mme Rixain",
-    "email": "marie-pierre.rixain@assemblee-nationale.fr|mprixain.perm@orange.fr"
+    "email": "mprixain.perm@orange.fr"
   },
   {
     "circonscription": "5° circonscription",
@@ -790,7 +790,7 @@ const deputes = [
     "circonscription": "1ère circonscription",
     "departement": "Eure-et-Loir",
     "depute": "M. Kasbarian",
-    "email": "guillaume.kasbarian@assemblee-nationale.fr|contact@guillaumekasbarian.fr"
+    "email": "contact@guillaumekasbarian.fr"
   },
   {
     "circonscription": "2° circonscription",
@@ -812,109 +812,109 @@ const deputes = [
   },
   {
     "circonscription": "1ère circonscription",
-    "departement": "FinistÃ¨re",
+    "departement": "Finistère",
     "depute": "Mme Le Meur",
     "email": "annaig.lemeur@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
-    "departement": "FinistÃ¨re",
+    "departement": "Finistère",
     "depute": "M. Cadalen",
     "email": "pierre-yves.cadalen@assemblee-nationale.fr"
   },
   {
     "circonscription": "3° circonscription",
-    "departement": "FinistÃ¨re",
+    "departement": "Finistère",
     "depute": "M. Le Gac",
     "email": "didier.legac@assemblee-nationale.fr"
   },
   {
     "circonscription": "4° circonscription",
-    "departement": "FinistÃ¨re",
+    "departement": "Finistère",
     "depute": "Mme Le Feur",
     "email": "sandrine.lefeur@assemblee-nationale.fr"
   },
   {
     "circonscription": "5° circonscription",
-    "departement": "FinistÃ¨re",
+    "departement": "Finistère",
     "depute": "Mme Melchior",
     "email": "graziella.melchior@assemblee-nationale.fr"
   },
   {
     "circonscription": "6° circonscription",
-    "departement": "FinistÃ¨re",
+    "departement": "Finistère",
     "depute": "Mme Thomin",
     "email": "melanie.thomin@assemblee-nationale.fr"
   },
   {
     "circonscription": "7° circonscription",
-    "departement": "FinistÃ¨re",
+    "departement": "Finistère",
     "depute": "Mme Tanguy",
     "email": "liliana.tanguy@assemblee-nationale.fr"
   },
   {
     "circonscription": "8° circonscription",
-    "departement": "FinistÃ¨re",
+    "departement": "Finistère",
     "depute": "M. Balanant",
     "email": "erwan.balanant@assemblee-nationale.fr"
   },
   {
     "circonscription": "1ère circonscription",
-    "departement": "FranÃ§ais Ã©tablis hors de France",
+    "departement": "Français établis hors de France",
     "depute": "M. Lescure",
     "email": "roland.lescure@assemblee-nationale.fr"
   },
   {
     "circonscription": "3° circonscription",
-    "departement": "FranÃ§ais Ã©tablis hors de France",
+    "departement": "Français établis hors de France",
     "depute": "M. Caure",
     "email": "vincent.caure@assemblee-nationale.fr"
   },
   {
     "circonscription": "4° circonscription",
-    "departement": "FranÃ§ais Ã©tablis hors de France",
+    "departement": "Français établis hors de France",
     "depute": "M. Anglade",
     "email": "pieyre-alexandre.anglade@assemblee-nationale.fr"
   },
   {
     "circonscription": "5° circonscription",
-    "departement": "FranÃ§ais Ã©tablis hors de France",
+    "departement": "Français établis hors de France",
     "depute": "M. Vojetta",
     "email": "stephane.vojetta@assemblee-nationale.fr"
   },
   {
     "circonscription": "6° circonscription",
-    "departement": "FranÃ§ais Ã©tablis hors de France",
+    "departement": "Français établis hors de France",
     "depute": "Mme Rousselot",
     "email": "marie-ange.rousselot@assemblee-nationale.fr"
   },
   {
     "circonscription": "7° circonscription",
-    "departement": "FranÃ§ais Ã©tablis hors de France",
+    "departement": "Français établis hors de France",
     "depute": "M. Petit",
     "email": "frederic.petit@assemblee-nationale.fr"
   },
   {
     "circonscription": "8° circonscription",
-    "departement": "FranÃ§ais Ã©tablis hors de France",
+    "departement": "Français établis hors de France",
     "depute": "Mme Yadan",
     "email": "caroline.yadan@assemblee-nationale.fr"
   },
   {
     "circonscription": "9° circonscription",
-    "departement": "FranÃ§ais Ã©tablis hors de France",
+    "departement": "Français établis hors de France",
     "depute": "M. Ben Cheikh",
     "email": "karim.bencheikh@assemblee-nationale.fr"
   },
   {
     "circonscription": "10° circonscription",
-    "departement": "FranÃ§ais Ã©tablis hors de France",
+    "departement": "Français établis hors de France",
     "depute": "Mme Lakrafi",
     "email": "amelia.lakrafi@assemblee-nationale.fr"
   },
   {
     "circonscription": "11° circonscription",
-    "departement": "FranÃ§ais Ã©tablis hors de France",
+    "departement": "Français établis hors de France",
     "depute": "Mme Genetet",
     "email": "anne.genetet@assemblee-nationale.fr"
   },
@@ -928,7 +928,7 @@ const deputes = [
     "circonscription": "1ère circonscription",
     "departement": "Gard",
     "depute": "M. Gillet",
-    "email": "yoann.gillet@assemblee-nationale.fr|contact@yoanngillet.fr"
+    "email": "contact@yoanngillet.fr"
   },
   {
     "circonscription": "2° circonscription",
@@ -970,7 +970,7 @@ const deputes = [
     "circonscription": "2° circonscription",
     "departement": "Gers",
     "depute": "M. Taupiac",
-    "email": "david.taupiac@assemblee-nationale.fr|davidtaupiac.permanence@gmail.com"
+    "email": "davidtaupiac.permanence@gmail.com"
   },
   {
     "circonscription": "1ère circonscription",
@@ -1082,55 +1082,55 @@ const deputes = [
   },
   {
     "circonscription": "1ère circonscription",
-    "departement": "HÃ©rault",
+    "departement": "Hérault",
     "depute": "M. Roumégas",
     "email": "jean-louis.roumegas@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
-    "departement": "HÃ©rault",
+    "departement": "Hérault",
     "depute": "Mme Oziol",
     "email": "nathalie.oziol@assemblee-nationale.fr"
   },
   {
     "circonscription": "3° circonscription",
-    "departement": "HÃ©rault",
+    "departement": "Hérault",
     "depute": "Mme Dombre Coste",
-    "email": "fanny.dombrecoste@assemblee-nationale.fr|fannydombrecoste2024@gmail.com"
+    "email": "fanny.dombrecoste@assemblee-nationale.fr|"
   },
   {
     "circonscription": "4° circonscription",
-    "departement": "HÃ©rault",
+    "departement": "Hérault",
     "depute": "Mme Bouquin",
     "email": "manon.bouquin@assemblee-nationale.fr"
   },
   {
     "circonscription": "5° circonscription",
-    "departement": "HÃ©rault",
+    "departement": "Hérault",
     "depute": "Mme Galzy",
     "email": "stephanie.galzy@assemblee-nationale.fr"
   },
   {
     "circonscription": "6° circonscription",
-    "departement": "HÃ©rault",
+    "departement": "Hérault",
     "depute": "M. Gabarron",
     "email": "julien.gabarron@assemblee-nationale.fr"
   },
   {
     "circonscription": "7° circonscription",
-    "departement": "HÃ©rault",
+    "departement": "Hérault",
     "depute": "M. Lopez-Liguori",
     "email": "aurelien.lopezliguori@assemblee-nationale.fr"
   },
   {
     "circonscription": "8° circonscription",
-    "departement": "HÃ©rault",
+    "departement": "Hérault",
     "depute": "M. Carrière",
     "email": "sylvain.carriere@assemblee-nationale.fr"
   },
   {
     "circonscription": "9° circonscription",
-    "departement": "HÃ©rault",
+    "departement": "Hérault",
     "depute": "M. Alloncle",
     "email": "charles.alloncle@assemblee-nationale.fr"
   },
@@ -1162,7 +1162,7 @@ const deputes = [
     "circonscription": "5° circonscription",
     "departement": "Haut-Rhin",
     "depute": "M. Becht",
-    "email": "cabinet.becht@gmail.com|olivier.becht@assemblee-nationale.fr"
+    "email": "cabinet.becht@gmail.com"
   },
   {
     "circonscription": "6° circonscription",
@@ -1198,7 +1198,7 @@ const deputes = [
     "circonscription": "3° circonscription",
     "departement": "Haute-Garonne",
     "depute": "Mme Vignon",
-    "email": "permanence@corinnevignon.fr|corinne.vignon@assemblee-nationale.fr"
+    "email": "permanence@corinnevignon.fr"
   },
   {
     "circonscription": "4° circonscription",
@@ -1210,7 +1210,7 @@ const deputes = [
     "circonscription": "5° circonscription",
     "departement": "Haute-Garonne",
     "depute": "M. Portarrieu",
-    "email": "contact@portarrieu.fr|jean-francois.portarrieu@assemblee-nationale.fr"
+    "email": "contact@portarrieu.fr"
   },
   {
     "circonscription": "6° circonscription",
@@ -1228,7 +1228,7 @@ const deputes = [
     "circonscription": "8° circonscription",
     "departement": "Haute-Garonne",
     "depute": "M. Aviragnet",
-    "email": "joelaviragnet@gmail.com|joel.aviragnet@assemblee-nationale.fr"
+    "email": "joelaviragnet@gmail.com"
   },
   {
     "circonscription": "9° circonscription",
@@ -1268,13 +1268,13 @@ const deputes = [
   },
   {
     "circonscription": "1ère circonscription",
-    "departement": "Haute-SaÃ´ne",
+    "departement": "Haute-Saône",
     "depute": "M. Villedieu",
     "email": "antoine.villedieu@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
-    "departement": "Haute-SaÃ´ne",
+    "departement": "Haute-Saône",
     "depute": "M. Salmon",
     "email": "emeric.salmon@assemblee-nationale.fr"
   },
@@ -1300,7 +1300,7 @@ const deputes = [
     "circonscription": "4° circonscription",
     "departement": "Haute-Savoie",
     "depute": "Mme Duby-Muller",
-    "email": "depute@virginiedubymuller.fr|virginie.duby-muller@assemblee-nationale.fr"
+    "email": "depute@virginiedubymuller.fr"
   },
   {
     "circonscription": "5° circonscription",
@@ -1346,15 +1346,15 @@ const deputes = [
   },
   {
     "circonscription": "1ère circonscription",
-    "departement": "Hautes-PyrÃ©nÃ©es",
+    "departement": "Hautes-Pyrénées",
     "depute": "Mme Ferrer",
     "email": "sylvie.ferrer@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
-    "departement": "Hautes-PyrÃ©nÃ©es",
+    "departement": "Hautes-Pyrénées",
     "depute": "M. Fégné",
-    "email": "denis.fegne@assemblee-nationale.fr|permanencedenisfegne@gmail.com"
+    "email": "denis.fegne@assemblee-nationale.fr"
   },
   {
     "circonscription": "1ère circonscription",
@@ -1468,7 +1468,7 @@ const deputes = [
     "circonscription": "6° circonscription",
     "departement": "Ille-et-Vilaine",
     "depute": "M. Benoit",
-    "email": "contact@thierry-benoit.fr|thierry.benoit@assemblee-nationale.fr"
+    "email": "contact@thierry-benoit.fr"
   },
   {
     "circonscription": "7° circonscription",
@@ -1526,61 +1526,61 @@ const deputes = [
   },
   {
     "circonscription": "1ère circonscription",
-    "departement": "IsÃ¨re",
+    "departement": "Isère",
     "depute": "Mme Galliard-Minier",
-    "email": "contact@galliard-minier.fr|camille.galliard-minier@assemblee-nationale.fr"
+    "email": "contact@galliard-minier.fr"
   },
   {
     "circonscription": "2° circonscription",
-    "departement": "IsÃ¨re",
+    "departement": "Isère",
     "depute": "Mme Chatelain",
     "email": "cyrielle.chatelain@assemblee-nationale.fr"
   },
   {
     "circonscription": "3° circonscription",
-    "departement": "IsÃ¨re",
+    "departement": "Isère",
     "depute": "Mme Martin",
     "email": "elisa.martin@assemblee-nationale.fr"
   },
   {
     "circonscription": "4° circonscription",
-    "departement": "IsÃ¨re",
+    "departement": "Isère",
     "depute": "Mme Battistel",
-    "email": "mnoelle.battistel@orange.fr|marie-noelle.battistel@assemblee-nationale.fr"
+    "email": "mnoelle.battistel@orange.fr"
   },
   {
     "circonscription": "5° circonscription",
-    "departement": "IsÃ¨re",
+    "departement": "Isère",
     "depute": "M. Iordanoff",
     "email": "jeremie.iordanoff@assemblee-nationale.fr"
   },
   {
     "circonscription": "6° circonscription",
-    "departement": "IsÃ¨re",
+    "departement": "Isère",
     "depute": "M. Jolly",
     "email": "alexis.jolly@assemblee-nationale.fr"
   },
   {
     "circonscription": "7° circonscription",
-    "departement": "IsÃ¨re",
+    "departement": "Isère",
     "depute": "Mme Dezarnaud",
     "email": "sylvie.dezarnaud@assemblee-nationale.fr"
   },
   {
     "circonscription": "8° circonscription",
-    "departement": "IsÃ¨re",
+    "departement": "Isère",
     "depute": "Mme Mansouri",
     "email": "hanane.mansouri@assemblee-nationale.fr"
   },
   {
     "circonscription": "9° circonscription",
-    "departement": "IsÃ¨re",
+    "departement": "Isère",
     "depute": "Mme Nosbé",
     "email": "sandrine.nosbe@assemblee-nationale.fr"
   },
   {
     "circonscription": "10° circonscription",
-    "departement": "IsÃ¨re",
+    "departement": "Isère",
     "depute": "M. Perez",
     "email": "thierry.perez@assemblee-nationale.fr"
   },
@@ -1594,7 +1594,7 @@ const deputes = [
     "circonscription": "2° circonscription",
     "departement": "Jura",
     "depute": "Mme Dalloz",
-    "email": "marie-christine.dalloz@assemblee-nationale.fr|marie-christine.dalloz390@orange.fr"
+    "email": "marie-christine.dalloz390@orange.fr"
   },
   {
     "circonscription": "3° circonscription",
@@ -1660,19 +1660,19 @@ const deputes = [
     "circonscription": "4° circonscription",
     "departement": "Loire",
     "depute": "Mme Bonnet",
-    "email": "sylvie.bonnet@assemblee-nationale.fr|deputee@bonnetsylvie.fr"
+    "email": "deputee@bonnetsylvie.fr"
   },
   {
     "circonscription": "5° circonscription",
     "departement": "Loire",
     "depute": "M. Vermorel-Marques",
-    "email": "antoine.vermorel@assemblee-nationale.fr|contact@antoinevermorel.fr"
+    "email": "contact@antoinevermorel.fr"
   },
   {
     "circonscription": "6° circonscription",
     "departement": "Loire",
     "depute": "M. Taite",
-    "email": "jean-pierre.taite@assemblee-nationale.fr|taite.bonnefoy.assemblee@gmail.com"
+    "email": "taite.bonnefoy.assemblee@gmail.com"
   },
   {
     "circonscription": "1ère circonscription",
@@ -1732,7 +1732,7 @@ const deputes = [
     "circonscription": "10° circonscription",
     "departement": "Loire-Atlantique",
     "depute": "Mme Errante",
-    "email": "permanence@sophie-errante.fr|sophie.errante@assemblee-nationale.fr"
+    "email": "permanence@sophie-errante.fr"
   },
   {
     "circonscription": "1ère circonscription",
@@ -1802,7 +1802,7 @@ const deputes = [
   },
   {
     "circonscription": "1ère circonscription",
-    "departement": "LozÃ¨re",
+    "departement": "Lozère",
     "depute": "Mme Pantel",
     "email": "sophie.pantel@assemblee-nationale.fr"
   },
@@ -1822,7 +1822,7 @@ const deputes = [
     "circonscription": "3° circonscription",
     "departement": "Maine-et-Loire",
     "depute": "Mme Blin",
-    "email": "anne-laure.blin@assemblee-nationale.fr|contact@annelaureblin.fr"
+    "email": "contact@annelaureblin.fr"
   },
   {
     "circonscription": "4° circonscription",
@@ -1833,13 +1833,13 @@ const deputes = [
   {
     "circonscription": "5° circonscription",
     "departement": "Maine-et-Loire",
-    "depute": "M. MassÃ©glia",
+    "depute": "M. Masséglia",
     "email": "denis.masseglia@assemblee-nationale.fr"
   },
   {
     "circonscription": "6° circonscription",
     "departement": "Maine-et-Loire",
-    "depute": "Mme DubrÃ©-Chirat",
+    "depute": "Mme Dubré-Chirat",
     "email": "nicole.dubre-chirat@assemblee-nationale.fr"
   },
   {
@@ -1852,7 +1852,7 @@ const deputes = [
     "circonscription": "1ère circonscription",
     "departement": "Manche",
     "depute": "M. Gosselin",
-    "email": "philippe.gosselin@assemblee-nationale.fr|philippegosselin50@orange.fr"
+    "email": "philippegosselin50@orange.fr"
   },
   {
     "circonscription": "2° circonscription",
@@ -1864,7 +1864,7 @@ const deputes = [
     "circonscription": "3° circonscription",
     "departement": "Manche",
     "depute": "M. Travert",
-    "email": "permanence.stravert@gmail.com|stephane.travert@assemblee-nationale.fr"
+    "email": "permanence.stravert@gmail.com"
   },
   {
     "circonscription": "4° circonscription",
@@ -1894,13 +1894,13 @@ const deputes = [
     "circonscription": "4° circonscription",
     "departement": "Marne",
     "depute": "Mme Magnier",
-    "email": "contact@lisemagnier.fr|lise.magnier@assemblee-nationale.fr"
+    "email": "contact@lisemagnier.fr"
   },
   {
     "circonscription": "5° circonscription",
     "departement": "Marne",
     "depute": "M. de Courson",
-    "email": "charles.de-courson@wanadoo.fr|charles.decourson@assemblee-nationale.fr"
+    "email": "charles.de-courson@wanadoo.fr"
   },
   {
     "circonscription": "1ère circonscription",
@@ -1924,13 +1924,13 @@ const deputes = [
     "circonscription": "4° circonscription",
     "departement": "Martinique",
     "depute": "M. Nilor",
-    "email": "jean-philippe.nilor@wanadoo.fr|jean-philippe.nilor@assemblee-nationale.fr"
+    "email": "jean-philippe.nilor@wanadoo.fr"
   },
   {
     "circonscription": "1ère circonscription",
     "departement": "Mayenne",
     "depute": "M. Garot",
-    "email": "permanence@garot.fr|guillaume.garot@assemblee-nationale.fr"
+    "email": "permanence@garot.fr"
   },
   {
     "circonscription": "2° circonscription",
@@ -1942,7 +1942,7 @@ const deputes = [
     "circonscription": "3° circonscription",
     "departement": "Mayenne",
     "depute": "M. Favennec-Bécot",
-    "email": "favennec.yannick@wanadoo.fr|yannick.favennec@assemblee-nationale.fr"
+    "email": "favennec.yannick@wanadoo.fr"
   },
   {
     "circonscription": "1ère circonscription",
@@ -1978,7 +1978,7 @@ const deputes = [
     "circonscription": "4° circonscription",
     "departement": "Meurthe-et-Moselle",
     "depute": "M. Bazin",
-    "email": "thibault.bazin@assemblee-nationale.fr|permanence.bazin@gmail.com"
+    "email": "permanence.bazin@gmail.com"
   },
   {
     "circonscription": "5° circonscription",
@@ -1996,7 +1996,7 @@ const deputes = [
     "circonscription": "1ère circonscription",
     "departement": "Meuse",
     "depute": "M. Amblard",
-    "email": "maxime.amblard@assemblee-nationale.fr|mamblard.servicepresse@gmail.com"
+    "email": "maxime.amblard@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
@@ -2007,7 +2007,7 @@ const deputes = [
   {
     "circonscription": "1ère circonscription",
     "departement": "Morbihan",
-    "depute": "Mme Le HÃ©nanff",
+    "depute": "Mme Le Hénanff",
     "email": "anne.lehenanff@assemblee-nationale.fr"
   },
   {
@@ -2020,7 +2020,7 @@ const deputes = [
     "circonscription": "3° circonscription",
     "departement": "Morbihan",
     "depute": "Mme Le Peih",
-    "email": "le.peih.nicole@gmail.com|nicole.lepeih@assemblee-nationale.fr"
+    "email": "le.peih.nicole@gmail.com"
   },
   {
     "circonscription": "4° circonscription",
@@ -2044,7 +2044,7 @@ const deputes = [
     "circonscription": "1ère circonscription",
     "departement": "Moselle",
     "depute": "M. Belhaddad",
-    "email": "belkhir.belhaddad@en-marche.fr|belkhir.belhaddad@assemblee-nationale.fr"
+    "email": "belkhir.belhaddad@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
@@ -2062,7 +2062,7 @@ const deputes = [
     "circonscription": "4° circonscription",
     "departement": "Moselle",
     "depute": "M. Di Filippo",
-    "email": "fabiendifilippo@gmail.com|fabien.difilippo@assemblee-nationale.fr"
+    "email": "fabiendifilippo@gmail.com"
   },
   {
     "circonscription": "5° circonscription",
@@ -2096,13 +2096,13 @@ const deputes = [
   },
   {
     "circonscription": "1ère circonscription",
-    "departement": "NiÃ¨vre",
+    "departement": "Nièvre",
     "depute": "Mme Goulet",
     "email": "perrine.goulet@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
-    "departement": "NiÃ¨vre",
+    "departement": "Nièvre",
     "depute": "M. Guibert",
     "email": "julien.guibert@assemblee-nationale.fr"
   },
@@ -2116,7 +2116,7 @@ const deputes = [
     "circonscription": "2° circonscription",
     "departement": "Nord",
     "depute": "M. Bernalicis",
-    "email": "ugo.bernalicis@assemblee-nationale.fr|contact@ugobernalicis.fr"
+    "email": "contact@ugobernalicis.fr"
   },
   {
     "circonscription": "3° circonscription",
@@ -2145,7 +2145,7 @@ const deputes = [
   {
     "circonscription": "7° circonscription",
     "departement": "Nord",
-    "depute": "Mme GÃ©rard",
+    "depute": "Mme Gérard",
     "email": "felicie.gerard@assemblee-nationale.fr"
   },
   {
@@ -2164,7 +2164,7 @@ const deputes = [
     "circonscription": "10° circonscription",
     "departement": "Nord",
     "depute": "M. Ledoux",
-    "email": "permanenceledoux@gmail.com|vincent.ledoux@assemblee-nationale.fr"
+    "email": "permanenceledoux@gmail.com"
   },
   {
     "circonscription": "11° circonscription",
@@ -2206,7 +2206,7 @@ const deputes = [
     "circonscription": "17° circonscription",
     "departement": "Nord",
     "depute": "M. Tesson",
-    "email": "thierry.tesson@assemblee-nationale.fr|thierry.tesson.59@gmail.com"
+    "email": "thierry.tesson.59@gmail.com"
   },
   {
     "circonscription": "18° circonscription",
@@ -2234,13 +2234,13 @@ const deputes = [
   },
   {
     "circonscription": "1ère circonscription",
-    "departement": "Nouvelle-CalÃ©donie",
+    "departement": "Nouvelle-Calédonie",
     "depute": "M. Metzdorf",
     "email": "nicolas.metzdorf@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
-    "departement": "Nouvelle-CalÃ©donie",
+    "departement": "Nouvelle-Calédonie",
     "depute": "M. Tjibaou",
     "email": "emmanuel.tjibaou@assemblee-nationale.fr"
   },
@@ -2254,19 +2254,19 @@ const deputes = [
     "circonscription": "2° circonscription",
     "departement": "Oise",
     "depute": "M. Ballard",
-    "email": "philippe.ballard@assemblee-nationale.fr|permanence.ballard@gmail.com"
+    "email": "permanence.ballard@gmail.com"
   },
   {
     "circonscription": "3° circonscription",
     "departement": "Oise",
     "depute": "M. Sabatou",
-    "email": "alexandre.sabatou@assemblee-nationale.fr|permanence.sabatou@gmail.com"
+    "email": "permanence.sabatou@gmail.com"
   },
   {
     "circonscription": "4° circonscription",
     "departement": "Oise",
     "depute": "M. Woerth",
-    "email": "eric.woerth@orange.fr|eric.woerth@assemblee-nationale.fr"
+    "email": "eric.woerth@assemblee-nationale.fr"
   },
   {
     "circonscription": "5° circonscription",
@@ -2314,7 +2314,7 @@ const deputes = [
     "circonscription": "2° circonscription",
     "departement": "Paris",
     "depute": "M. Laussucq",
-    "email": "jean.laussucq@assemblee-nationale.fr|jean.laussucq@paris.fr"
+    "email": "jean.laussucq@paris.fr"
   },
   {
     "circonscription": "3° circonscription",
@@ -2374,7 +2374,7 @@ const deputes = [
     "circonscription": "12° circonscription",
     "departement": "Paris",
     "depute": "Mme Grégoire",
-    "email": "olivia.gregoire@assemblee-nationale.fr|oliviagregoire2017@gmail.com"
+    "email": "olivia.gregoire@assemblee-nationale.fr"
   },
   {
     "circonscription": "13° circonscription",
@@ -2486,103 +2486,103 @@ const deputes = [
   },
   {
     "circonscription": "1ère circonscription",
-    "departement": "PolynÃ©sie FranÃ§aise",
+    "departement": "Polynésie Française",
     "depute": "M. Frébault",
     "email": "moerani.frebault@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
-    "departement": "PolynÃ©sie FranÃ§aise",
+    "departement": "Polynésie Française",
     "depute": "Mme Sanquer",
-    "email": "nicole.sanquer@assemblee-nationale.fr|sanquern@yahoo.fr"
+    "email": "nicole.sanquer@assemblee-nationale.fr"
   },
   {
     "circonscription": "3° circonscription",
-    "departement": "PolynÃ©sie FranÃ§aise",
+    "departement": "Polynésie Française",
     "depute": "Mme Reid Arbelot",
     "email": "mereana.reidarbelot@assemblee-nationale.fr"
   },
   {
     "circonscription": "1ère circonscription",
-    "departement": "Puy-de-DÃ´me",
+    "departement": "Puy-de-Dôme",
     "depute": "Mme Maximi",
     "email": "marianne.maximi@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
-    "departement": "Puy-de-DÃ´me",
+    "departement": "Puy-de-Dôme",
     "depute": "Mme Pirès Beaune",
-    "email": "christine.piresbeaune@assemblee-nationale.fr|cpbdeputee@gmail.com"
+    "email": "cpbdeputee@gmail.com"
   },
   {
     "circonscription": "3° circonscription",
-    "departement": "Puy-de-DÃ´me",
+    "departement": "Puy-de-Dôme",
     "depute": "M. Bonnet",
     "email": "nicolas.bonnet@assemblee-nationale.fr"
   },
   {
     "circonscription": "4° circonscription",
-    "departement": "Puy-de-DÃ´me",
+    "departement": "Puy-de-Dôme",
     "depute": "Mme Lingemann",
     "email": "delphine.lingemann@assemblee-nationale.fr"
   },
   {
     "circonscription": "5° circonscription",
-    "departement": "Puy-de-DÃ´me",
+    "departement": "Puy-de-Dôme",
     "depute": "M. Brugerolles",
     "email": "julien.brugerolles@assemblee-nationale.fr"
   },
   {
     "circonscription": "1ère circonscription",
-    "departement": "PyrÃ©nÃ©es-Atlantiques",
+    "departement": "Pyrénées-Atlantiques",
     "depute": "Mme Poueyto",
     "email": "josy.poueyto@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
-    "departement": "PyrÃ©nÃ©es-Atlantiques",
+    "departement": "Pyrénées-Atlantiques",
     "depute": "M. Mattei",
     "email": "jean-paul.mattei@assemblee-nationale.fr"
   },
   {
     "circonscription": "3° circonscription",
-    "departement": "PyrÃ©nÃ©es-Atlantiques",
+    "departement": "Pyrénées-Atlantiques",
     "depute": "M. Habib",
-    "email": "dhabib.jurancon@orange.fr|david.habib@assemblee-nationale.fr"
+    "email": "david.habib@assemblee-nationale.fr"
   },
   {
     "circonscription": "4° circonscription",
-    "departement": "PyrÃ©nÃ©es-Atlantiques",
+    "departement": "Pyrénées-Atlantiques",
     "depute": "M. Echaniz",
     "email": "inaki.echaniz@assemblee-nationale.fr"
   },
   {
     "circonscription": "6° circonscription",
-    "departement": "PyrÃ©nÃ©es-Atlantiques",
+    "departement": "Pyrénées-Atlantiques",
     "depute": "M. Dufau",
     "email": "peio.dufau@assemblee-nationale.fr"
   },
   {
     "circonscription": "1ère circonscription",
-    "departement": "PyrÃ©nÃ©es-Orientales",
+    "departement": "Pyrénées-Orientales",
     "depute": "Mme Blanc",
     "email": "sophie.blanc@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
-    "departement": "PyrÃ©nÃ©es-Orientales",
+    "departement": "Pyrénées-Orientales",
     "depute": "Mme Sabatini",
     "email": "anais.sabatini@assemblee-nationale.fr"
   },
   {
     "circonscription": "3° circonscription",
-    "departement": "PyrÃ©nÃ©es-Orientales",
+    "departement": "Pyrénées-Orientales",
     "depute": "Mme Dogor-Such",
     "email": "sandrine.dogor-such@assemblee-nationale.fr"
   },
   {
     "circonscription": "4° circonscription",
-    "departement": "PyrÃ©nÃ©es-Orientales",
+    "departement": "Pyrénées-Orientales",
     "depute": "Mme Martinez",
     "email": "michele.martinez@assemblee-nationale.fr"
   },
@@ -2594,157 +2594,157 @@ const deputes = [
   },
   {
     "circonscription": "1ère circonscription",
-    "departement": "RÃ©union",
+    "departement": "Réunion",
     "depute": "M. Naillet",
     "email": "philippe.naillet@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
-    "departement": "RÃ©union",
+    "departement": "Réunion",
     "depute": "Mme Lebon",
     "email": "karine.lebon@assemblee-nationale.fr"
   },
   {
     "circonscription": "3° circonscription",
-    "departement": "RÃ©union",
+    "departement": "Réunion",
     "depute": "M. Rivière",
     "email": "joseph.riviere@assemblee-nationale.fr"
   },
   {
     "circonscription": "4° circonscription",
-    "departement": "RÃ©union",
+    "departement": "Réunion",
     "depute": "Mme K/Bidi",
     "email": "emeline.kbidi@assemblee-nationale.fr"
   },
   {
     "circonscription": "5° circonscription",
-    "departement": "RÃ©union",
+    "departement": "Réunion",
     "depute": "M. Ratenon",
     "email": "jean-hugues.ratenon@assemblee-nationale.fr"
   },
   {
     "circonscription": "6° circonscription",
-    "departement": "RÃ©union",
+    "departement": "Réunion",
     "depute": "M. Maillot",
     "email": "frederic.maillot@assemblee-nationale.fr"
   },
   {
     "circonscription": "7° circonscription",
-    "departement": "RÃ©union",
+    "departement": "Réunion",
     "depute": "M. Gaillard",
     "email": "perceval.gaillard@assemblee-nationale.fr"
   },
   {
     "circonscription": "1ère circonscription",
-    "departement": "RhÃ´ne",
+    "departement": "Rhône",
     "depute": "Mme Belouassa-Cherifi",
     "email": "anais.belouassa@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
-    "departement": "RhÃ´ne",
+    "departement": "Rhône",
     "depute": "M. Tavernier",
     "email": "boris.tavernier@assemblee-nationale.fr"
   },
   {
     "circonscription": "3° circonscription",
-    "departement": "RhÃ´ne",
+    "departement": "Rhône",
     "depute": "Mme Garin",
     "email": "marie-charlotte.garin@assemblee-nationale.fr"
   },
   {
     "circonscription": "4° circonscription",
-    "departement": "RhÃ´ne",
+    "departement": "Rhône",
     "depute": "Mme Runel",
-    "email": "sandrine.runel@assemblee-nationale.fr|sandrine.runel@mairie-lyon.fr"
+    "email": "sandrine.runel@assemblee-nationale.fr"
   },
   {
     "circonscription": "5° circonscription",
-    "departement": "RhÃ´ne",
+    "departement": "Rhône",
     "depute": "Mme Brocard",
-    "email": "contact@blandinebrocard.com|blandine.brocard@assemblee-nationale.fr"
+    "email": "contact@blandinebrocard.com"
   },
   {
     "circonscription": "6° circonscription",
-    "departement": "RhÃ´ne",
+    "departement": "Rhône",
     "depute": "M. Amard",
     "email": "gabriel.amard@assemblee-nationale.fr"
   },
   {
     "circonscription": "7° circonscription",
-    "departement": "RhÃ´ne",
+    "departement": "Rhône",
     "depute": "M. Lahmar",
-    "email": "abdelkader.lahmar@assemblee-nationale.fr|nfp.circo7rhone@gmail.com"
+    "email": "nfp.circo7rhone@gmail.com"
   },
   {
     "circonscription": "8° circonscription",
-    "departement": "RhÃ´ne",
+    "departement": "Rhône",
     "depute": "M. Gery",
     "email": "jonathan.gery@assemblee-nationale.fr"
   },
   {
     "circonscription": "9° circonscription",
-    "departement": "RhÃ´ne",
+    "departement": "Rhône",
     "depute": "M. Portier",
-    "email": "alexandre.portier@assemblee-nationale.fr|contact@alexandreportier.fr"
+    "email": "contact@alexandreportier.fr"
   },
   {
     "circonscription": "10° circonscription",
-    "departement": "RhÃ´ne",
+    "departement": "Rhône",
     "depute": "M. Gassilloud",
     "email": "thomas.gassilloud@assemblee-nationale.fr"
   },
   {
     "circonscription": "11° circonscription",
-    "departement": "RhÃ´ne",
+    "departement": "Rhône",
     "depute": "M. Fugit",
     "email": "jean-luc.fugit@assemblee-nationale.fr"
   },
   {
     "circonscription": "12° circonscription",
-    "departement": "RhÃ´ne",
+    "departement": "Rhône",
     "depute": "M. Isaac-Sibille",
     "email": "cyrille.isaac-sibille@assemblee-nationale.fr"
   },
   {
     "circonscription": "13° circonscription",
-    "departement": "RhÃ´ne",
+    "departement": "Rhône",
     "depute": "Mme Joncour",
     "email": "tiffany.joncour@assemblee-nationale.fr"
   },
   {
     "circonscription": "14° circonscription",
-    "departement": "RhÃ´ne",
+    "departement": "Rhône",
     "depute": "M. Boumertit",
     "email": "idir.boumertit@assemblee-nationale.fr"
   },
   {
     "circonscription": "1ère circonscription",
-    "departement": "SaÃ´ne-et-Loire",
+    "departement": "Saône-et-Loire",
     "depute": "M. Dirx",
     "email": "benjamin.dirx@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
-    "departement": "SaÃ´ne-et-Loire",
+    "departement": "Saône-et-Loire",
     "depute": "Mme Corneloup",
-    "email": "josiane.corneloup@assemblee-nationale.fr|jcorneloup2circo71@outlook.fr"
+    "email": "jcorneloup2circo71@outlook.fr"
   },
   {
     "circonscription": "3° circonscription",
-    "departement": "SaÃ´ne-et-Loire",
+    "departement": "Saône-et-Loire",
     "depute": "M. Dutremble",
     "email": "aurelien.dutremble@assemblee-nationale.fr"
   },
   {
     "circonscription": "4° circonscription",
-    "departement": "SaÃ´ne-et-Loire",
+    "departement": "Saône-et-Loire",
     "depute": "M. Michoux",
     "email": "eric.michoux@assemblee-nationale.fr"
   },
   {
     "circonscription": "1ère circonscription",
-    "departement": "Saint-BarthÃ©lemy et Saint-Martin",
+    "departement": "Saint-Barthélemy et Saint-Martin",
     "depute": "M. Gumbs",
     "email": "frantz.gumbs@assemblee-nationale.fr"
   },
@@ -2758,13 +2758,13 @@ const deputes = [
     "circonscription": "1ère circonscription",
     "departement": "Sarthe",
     "depute": "Mme Delpech",
-    "email": "julie.delpech@assemblee-nationale.fr|cabinet.juliedelpech@gmail.com"
+    "email": "cabinet.juliedelpech@gmail.com"
   },
   {
     "circonscription": "2° circonscription",
     "departement": "Sarthe",
     "depute": "Mme Karamanli",
-    "email": "contact@mariettakaramanli.fr|marietta.karamanli@assemblee-nationale.fr"
+    "email": "contact@mariettakaramanli.fr"
   },
   {
     "circonscription": "3° circonscription",
@@ -2782,7 +2782,7 @@ const deputes = [
     "circonscription": "5° circonscription",
     "departement": "Sarthe",
     "depute": "M. Grelier",
-    "email": "jean-carles.grelier@assemblee-nationale.fr|jcgrelier.depute@gmail.com"
+    "email": "jcgrelier.depute@gmail.com"
   },
   {
     "circonscription": "1ère circonscription",
@@ -2794,7 +2794,7 @@ const deputes = [
     "circonscription": "2° circonscription",
     "departement": "Savoie",
     "depute": "M. Rolland",
-    "email": "vincent-rolland@wanadoo.fr|vincent.rolland@assemblee-nationale.fr"
+    "email": "vincent.rolland@assemblee-nationale.fr"
   },
   {
     "circonscription": "3° circonscription",
@@ -2872,7 +2872,7 @@ const deputes = [
     "circonscription": "11° circonscription",
     "departement": "Seine-et-Marne",
     "depute": "M. Faure",
-    "email": "olivierfaure.depute77.11e@gmail.com|olivier.faure@assemblee-nationale.fr"
+    "email": "olivierfaure.depute77.11e@gmail.com"
   },
   {
     "circonscription": "1ère circonscription",
@@ -2890,7 +2890,7 @@ const deputes = [
     "circonscription": "3° circonscription",
     "departement": "Seine-Maritime",
     "depute": "M. Bénard",
-    "email": "permanence.ebenard@gmail.com|edouard.benard@assemblee-nationale.fr"
+    "email": "permanence.ebenard@gmail.com"
   },
   {
     "circonscription": "4° circonscription",
@@ -2956,7 +2956,7 @@ const deputes = [
     "circonscription": "4° circonscription",
     "departement": "Seine-Saint-Denis",
     "depute": "Mme Bourouaha",
-    "email": "soumya.bourouaha@assemblee-nationale.fr|soumya.bourouaha@gmail.com"
+    "email": "soumya.bourouaha@assemblee-nationale.fr"
   },
   {
     "circonscription": "5° circonscription",
@@ -2998,7 +2998,7 @@ const deputes = [
     "circonscription": "11° circonscription",
     "departement": "Seine-Saint-Denis",
     "depute": "Mme Autain",
-    "email": "clementineautain93@gmail.com|clementine.autain@assemblee-nationale.fr"
+    "email": "clementineautain93@gmail.com"
   },
   {
     "circonscription": "12° circonscription",
@@ -3010,7 +3010,7 @@ const deputes = [
     "circonscription": "1ère circonscription",
     "departement": "Somme",
     "depute": "M. Ruffin",
-    "email": "contact@picardiedebout.fr|francois.ruffin@assemblee-nationale.fr"
+    "email": "francois.ruffin@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
@@ -3039,7 +3039,7 @@ const deputes = [
   {
     "circonscription": "1ère circonscription",
     "departement": "Tarn",
-    "depute": "M. BonnecarrÃ¨re",
+    "depute": "M. Bonnecarrère",
     "email": "philippe.bonnecarrere@assemblee-nationale.fr"
   },
   {
@@ -3057,7 +3057,7 @@ const deputes = [
   {
     "circonscription": "1ère circonscription",
     "departement": "Tarn-et-Garonne",
-    "depute": "Mme BarÃ¨ges",
+    "depute": "Mme Barèges",
     "email": "brigitte.bareges@assemblee-nationale.fr"
   },
   {
@@ -3070,7 +3070,7 @@ const deputes = [
     "circonscription": "1ère circonscription",
     "departement": "Territoire de Belfort",
     "depute": "M. Boucard",
-    "email": "ian.boucard@gmail.com|ian.boucard@assemblee-nationale.fr"
+    "email": "ian.boucard@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
@@ -3250,7 +3250,7 @@ const deputes = [
     "circonscription": "8° circonscription",
     "departement": "Var",
     "depute": "M. Schreck",
-    "email": "philippe.schreck@assemblee-nationale.fr|contact@philippe-schreck.fr"
+    "email": "contact@philippe-schreck.fr"
   },
   {
     "circonscription": "1ère circonscription",
@@ -3284,31 +3284,31 @@ const deputes = [
   },
   {
     "circonscription": "1ère circonscription",
-    "departement": "VendÃ©e",
+    "departement": "Vendée",
     "depute": "M. Latombe",
     "email": "philippe.latombe@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
-    "departement": "VendÃ©e",
+    "departement": "Vendée",
     "depute": "Mme Bellamy",
     "email": "beatrice.bellamy@assemblee-nationale.fr"
   },
   {
     "circonscription": "3° circonscription",
-    "departement": "VendÃ©e",
+    "departement": "Vendée",
     "depute": "M. Buchou",
-    "email": "stephane.buchou@en-marche.fr|stephane.buchou@assemblee-nationale.fr"
+    "email": "stephane.buchou@assemblee-nationale.fr"
   },
   {
     "circonscription": "4° circonscription",
-    "departement": "VendÃ©e",
+    "departement": "Vendée",
     "depute": "Mme Besse",
-    "email": "permanence@veroniquebesse.fr|veronique.besse@assemblee-nationale.fr"
+    "email": "permanence@veroniquebesse.fr"
   },
   {
     "circonscription": "5° circonscription",
-    "departement": "VendÃ©e",
+    "departement": "Vendée",
     "depute": "M. Henriet",
     "email": "pierre.henriet@assemblee-nationale.fr"
   },
@@ -3322,25 +3322,25 @@ const deputes = [
     "circonscription": "2° circonscription",
     "departement": "Vienne",
     "depute": "M. Houlié",
-    "email": "sacha.houlie@assemblee-nationale.fr|contact@sachahoulie.fr"
+    "email": "sacha.houlie@assemblee-nationale.fr"
   },
   {
     "circonscription": "3° circonscription",
     "departement": "Vienne",
     "depute": "M. Lecamp",
-    "email": "pascal.lecamp@assemblee-nationale.fr|pascal.lecamp@civray.fr"
+    "email": "pascal.lecamp@assemblee-nationale.fr"
   },
   {
     "circonscription": "4° circonscription",
     "departement": "Vienne",
     "depute": "M. Turquois",
-    "email": "nicolas.turquois@gmail.com|nicolas.turquois@assemblee-nationale.fr"
+    "email": "nicolas.turquois@assemblee-nationale.fr"
   },
   {
     "circonscription": "1ère circonscription",
     "departement": "Vosges",
     "depute": "M. Viry",
-    "email": "contact@stephaneviry.fr|stephane.viry@assemblee-nationale.fr"
+    "email": "contact@stephaneviry.fr"
   },
   {
     "circonscription": "2° circonscription",
@@ -3352,7 +3352,7 @@ const deputes = [
     "circonscription": "3° circonscription",
     "departement": "Vosges",
     "depute": "M. Naegelen",
-    "email": "contact@naegelen.fr|christophe.naegelen@assemblee-nationale.fr"
+    "email": "contact@naegelen.fr"
   },
   {
     "circonscription": "4° circonscription",
