@@ -1,6 +1,6 @@
 // Tableau "deputes" généré à partir du CSV VoxPublic_liste-an.csv
 const deputes = [
-[
+
   {
     "circonscription": "1ère circonscription",
     "departement": "Ain",
