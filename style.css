@@ -150,6 +150,20 @@ footer {
     font-size: 0.9em;
 }
 
+a.important-link {
+  color: #0066cc;
+  font-weight: bold;
+  text-decoration: underline dotted;
+  background-color: #e6f0ff;
+  padding: 2px 4px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+a.important-link:hover {
+  background-color: #cce0ff;
+}
+
 /* Responsive design */
 @media (max-width: 600px) {
     header h1 {
