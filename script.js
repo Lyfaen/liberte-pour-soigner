@@ -1528,7 +1528,7 @@ const deputes = [
     "circonscription": "1ère circonscription",
     "departement": "Isère",
     "depute": "Mme Galliard-Minier",
-    "email": "contact@galliard-minier.fr"
+    "email": "camille.galliard-minier@assemblee-nationale.fr"
   },
   {
     "circonscription": "2° circonscription",
