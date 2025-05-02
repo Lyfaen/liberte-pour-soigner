@@ -3459,44 +3459,67 @@ const deputes = [
 ];
 
 const searchInput = document.getElementById("searchInput");
-const selectEl = document.getElementById("circoSelect");
+const suggestionsContainer = document.getElementById("suggestionsContainer");
 const sendBtn = document.getElementById("sendMailBtn");
 
-// Fonction de mise à jour du menu déroulant filtré
-function updateSelect(filter = "") {
-  selectEl.innerHTML = '<option value="">-- Sélectionnez --</option>';
+// Fonction pour mettre à jour les suggestions en fonction du filtre
+function updateSuggestions(filter = "") {
+  suggestionsContainer.innerHTML = "";
+  if (filter.trim() === "") return;
+
   const results = deputes.filter(dep => {
     const text = `${dep.circonscription} ${dep.depute} ${dep.departement}`.toLowerCase();
     return text.includes(filter.toLowerCase());
   });
 
-  results.forEach(dep => {
-    const option = document.createElement("option");
-    option.value = dep.email;
-    option.textContent = `${dep.circonscription} – ${dep.depute} (${dep.departement})`;
-    selectEl.appendChild(option);
-  });
+  if (results.length === 0) {
+    const noResult = document.createElement("div");
+    noResult.classList.add("suggestion-item");
+    noResult.textContent = "Aucun résultat trouvé.";
+    suggestionsContainer.appendChild(noResult);
+    return;
+  }
 
-  sendBtn.disabled = true;
+  results.forEach(dep => {
+    const item = document.createElement("div");
+    item.classList.add("suggestion-item");
+    item.textContent = `${dep.circonscription} – ${dep.depute} (${dep.departement})`;
+    item.addEventListener("click", () => {
+      // Remplir le champ de recherche avec l'option sélectionnée
+      searchInput.value = `${dep.depute} (${dep.departement})`;
+      // Effacer les suggestions
+      suggestionsContainer.innerHTML = "";
+      // Activer le bouton et mémoriser la sélection (on stocke l'email dans une propriété data)
+      searchInput.dataset.selectedEmail = dep.email;
+      sendBtn.disabled = false;
+    });
+    suggestionsContainer.appendChild(item);
+  });
 }
 
-// Gestion des événements
-searchInput.addEventListener("input", e => updateSelect(e.target.value));
-selectEl.addEventListener("change", () => {
-  sendBtn.disabled = (selectEl.value === "");
+// Événement de recherche en direct
+searchInput.addEventListener("input", (e) => {
+  updateSuggestions(e.target.value);
+  // On désactive le bouton car aucune option n'est encore sélectionnée
+  sendBtn.disabled = true;
+  // On efface la donnée sélectionnée s'il y en avait une
+  delete searchInput.dataset.selectedEmail;
 });
+
+// Quand on clique sur le bouton, on utilise l'email sélectionné (la première adresse en cas de plusieurs)
 sendBtn.addEventListener("click", () => {
-  const email = selectEl.value.split("|")[0]; // si plusieurs mails, on prend le premier
+  const emailStr = searchInput.dataset.selectedEmail;
+  if (!emailStr) return;
+  const email = emailStr.split("|")[0];
   const subject = encodeURIComponent("Contre la limitation de l'installation des médecins");
   const body = encodeURIComponent(
-"Madame, Monsieur le Député,\n\n" +
+    "Madame, Monsieur le Député,\n\n" +
     "Je vous écris pour exprimer mon opposition à la nouvelle loi limitant l'installation des médecins. " +
     "Cette mesure risque d'aggraver l'accès aux soins dans notre circonscription, qui est considérée comme surdotée alors que les délais pour consulter mon médecin généraliste ou un spécialiste y sont très longs, et que nombreux sont les médecins ne prenant plus de nouveaux patients.\n\n" +
     "Merci de défendre l'accès aux soins pour nous et notre territoire et de vous opposer à ce projet de loi, qui ne ferait qu'aggraver la situation.\n\n" +
     "Le prochain vote sur ce projet de loi aura lieu le 6 mai 2025. Je vous prie donc de voter contre.\n\n" +
     "Cordialement."
+
   );
   window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
 });
-
-updateSelect(); // initialisation
