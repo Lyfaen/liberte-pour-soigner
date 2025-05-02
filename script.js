@@ -3458,42 +3458,38 @@ const deputes = [
   }
 ];
 
+const searchInput = document.getElementById("searchInput");
 const selectEl = document.getElementById("circoSelect");
 const sendBtn = document.getElementById("sendMailBtn");
-const searchInput = document.getElementById("searchInput");
 
-// Fonction pour afficher les options (filtrées ou non)
+// Fonction de mise à jour du menu déroulant filtré
 function updateSelect(filter = "") {
   selectEl.innerHTML = '<option value="">-- Sélectionnez --</option>';
-  deputes.forEach(dep => {
-    const text = `${dep.circonscription} - ${dep.depute} (${dep.departement})`;
-    if (text.toLowerCase().includes(filter.toLowerCase())) {
-      const option = document.createElement("option");
-      option.value = dep.email;
-      option.textContent = text;
-      selectEl.appendChild(option);
-    }
+  const results = deputes.filter(dep => {
+    const text = `${dep.circonscription} ${dep.depute} ${dep.departement}`.toLowerCase();
+    return text.includes(filter.toLowerCase());
   });
+
+  results.forEach(dep => {
+    const option = document.createElement("option");
+    option.value = dep.email;
+    option.textContent = `${dep.circonscription} – ${dep.depute} (${dep.departement})`;
+    selectEl.appendChild(option);
+  });
+
   sendBtn.disabled = true;
 }
 
-// Événement de recherche en direct
-searchInput.addEventListener("input", (e) => {
-  updateSelect(e.target.value);
-});
-
-// Événement sur le menu déroulant
+// Gestion des événements
+searchInput.addEventListener("input", e => updateSelect(e.target.value));
 selectEl.addEventListener("change", () => {
   sendBtn.disabled = (selectEl.value === "");
 });
-
-// Clic sur le bouton pour envoyer le mail
 sendBtn.addEventListener("click", () => {
-  const email = selectEl.value;
-  if (!email) return;
+  const email = selectEl.value.split("|")[0]; // si plusieurs mails, on prend le premier
   const subject = encodeURIComponent("Contre la limitation de l'installation des médecins");
   const body = encodeURIComponent(
-    "Madame, Monsieur le Député,\n\n" +
+"Madame, Monsieur le Député,\n\n" +
     "Je vous écris pour exprimer mon opposition à la nouvelle loi limitant l'installation des médecins. " +
     "Cette mesure risque d'aggraver l'accès aux soins dans notre circonscription, qui est considérée comme surdotée alors que les délais pour consulter mon médecin généraliste ou un spécialiste y sont très longs, et que nombreux sont les médecins ne prenant plus de nouveaux patients.\n\n" +
     "Merci de défendre l'accès aux soins pour nous et notre territoire et de vous opposer à ce projet de loi, qui ne ferait qu'aggraver la situation.\n\n" +
@@ -3503,5 +3499,4 @@ sendBtn.addEventListener("click", () => {
   window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
 });
 
-// Initialisation au chargement
-updateSelect();
+updateSelect(); // initialisation
