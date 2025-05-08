@@ -3514,10 +3514,10 @@ sendBtn.addEventListener("click", () => {
   const subject = encodeURIComponent("Contre la limitation de l'installation des médecins");
   const body = encodeURIComponent(
     "Madame, Monsieur le Député,\n\n" +
-    "Je vous écris pour exprimer mon opposition à la nouvelle loi limitant l'installation des médecins. " +
-    "Cette mesure risque d'aggraver l'accès aux soins dans notre circonscription, qui est considérée comme surdotée alors que les délais pour consulter mon médecin généraliste ou un spécialiste y sont très longs, et que nombreux sont les médecins ne prenant plus de nouveaux patients.\n\n" +
+    "Je vous écris pour exprimer mon opposition à la nouvelle loi Garot régulant l'installation des médecins. " +
+    "Cette mesure risque d'aggraver l'accès aux soins dans une partie de notre circonscription, qui est considérée comme surdotée alors que les délais pour consulter mon médecin généraliste ou un spécialiste y sont très longs, et que nombreux sont les médecins ne prenant plus de nouveaux patients.\n\n" +
     "Merci de défendre l'accès aux soins pour nous et notre territoire et de vous opposer à ce projet de loi, qui ne ferait qu'aggraver la situation.\n\n" +
-    "Le prochain vote sur ce projet de loi aura lieu le 6 mai 2025. Je vous prie donc de voter contre.\n\n" +
+    "Le texte sera examiné prochainement au Sénat. Je vous prie d'utiliser tous les moyens à votre disposition pour lutter contre l'adoption de ce texte.\n\n" +
     "Cordialement."
 
   );
